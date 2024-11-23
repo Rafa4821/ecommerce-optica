@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "type": "combinado",
+    "name": "Gafas Personalizadas Urbanas",
+    "description": "Configura tus gafas con opciones de armazón y cristales personalizables.",
+    "image": "https://via.placeholder.com/150",
+    "price": 50000,
+    "options": {
+      "armazon": {
+        "styles": ["Moderno", "Clásico", "Deportivo"],
+        "colors": ["Negro", "Plata", "Dorado"],
+        "materials": ["Metal", "Acetato"]
+      },
+      "cristales": {
+        "types": ["Cristal Orgánico", "Cristal Mineral", "Cristal Policarbonato"],
+        "designs": ["Monofocal", "Bifocal con oblea", "Bifocal sin oblea", "Progresivo"],
+        "corrections": ["Miopía", "Hipermetropía", "Astigmatismo", "Presbicia"],
+        "addOns": [
+          { "name": "Antireflejo", "price": 8000 },
+          { "name": "Filtro Azul", "price": 10000 },
+          { "name": "Filtro UV", "price": 7000 },
+          { "name": "Tenido", "price": 6000 },
+          { "name": "Polarizado", "price": 12000 },
+          { "name": "Fotocromático", "price": 15000 }
+        ]
+      },
+      "recipeFields": {
+        "requiresPrescriptionImage": true,
+        "fields": ["OD (Esfera, Cilindro, Eje)", "OI (Esfera, Cilindro, Eje)", "DP", "ADD"]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "type": "combinado",
+    "name": "Gafas Elegance Retro",
+    "description": "Gafas con estilo retro y tecnología avanzada en cristales.",
+    "image": "https://via.placeholder.com/150",
+    "price": 45000,
+    "options": {
+      "armazon": {
+        "styles": ["Clásico", "Vintage"],
+        "colors": ["Marrón", "Transparente", "Negro"],
+        "materials": ["Acetato", "Metal"]
+      },
+      "cristales": {
+        "types": ["Cristal Orgánico", "Cristal Mineral", "Cristal Policarbonato"],
+        "designs": ["Monofocal", "Progresivo"],
+        "corrections": ["Miopía", "Astigmatismo"],
+        "addOns": [
+          { "name": "Antireflejo", "price": 8000 },
+          { "name": "Filtro Azul", "price": 10000 },
+          { "name": "Fotocromático", "price": 15000 }
+        ]
+      },
+      "recipeFields": {
+        "requiresPrescriptionImage": true,
+        "fields": ["OD (Esfera, Cilindro, Eje)", "OI (Esfera, Cilindro, Eje)", "DP"]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "type": "combinado",
+    "name": "Gafas Progresivas Multiflex",
+    "description": "Ideales para una visión clara en todas las distancias.",
+    "image": "https://via.placeholder.com/150",
+    "price": 60000,
+    "options": {
+      "armazon": {
+        "styles": ["Deportivo", "Clásico"],
+        "colors": ["Negro", "Plata"],
+        "materials": ["Titanio", "Acetato"]
+      },
+      "cristales": {
+        "types": ["Cristal Policarbonato", "Cristal Orgánico"],
+        "designs": ["Progresivo"],
+        "corrections": ["Presbicia"],
+        "addOns": [
+          { "name": "Filtro UV", "price": 7000 },
+          { "name": "Polarizado", "price": 12000 },
+          { "name": "Fotocromático", "price": 15000 }
+        ]
+      },
+      "recipeFields": {
+        "requiresPrescriptionImage": true,
+        "fields": ["OD (Esfera, Cilindro, Eje)", "OI (Esfera, Cilindro, Eje)", "DP", "ADD"]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "type": "combinado",
+    "name": "Gafas Dynamic Shield",
+    "description": "Protección avanzada contra luz azul y rayos UV.",
+    "image": "https://via.placeholder.com/150",
+    "price": 55000,
+    "options": {
+      "armazon": {
+        "styles": ["Moderno", "Casual"],
+        "colors": ["Negro Mate", "Blanco", "Gris"],
+        "materials": ["Metal"]
+      },
+      "cristales": {
+        "types": ["Cristal Orgánico", "Cristal Policarbonato"],
+        "designs": ["Monofocal", "Bifocal sin oblea"],
+        "corrections": ["Miopía", "Hipermetropía"],
+        "addOns": [
+          { "name": "Filtro Azul", "price": 10000 },
+          { "name": "Antireflejo", "price": 8000 },
+          { "name": "Filtro UV", "price": 7000 }
+        ]
+      },
+      "recipeFields": {
+        "requiresPrescriptionImage": true,
+        "fields": ["OD (Esfera, Cilindro, Eje)", "OI (Esfera, Cilindro, Eje)", "DP"]
+      }
+    }
+  },
+  {
+    "id": 5,
+    "type": "combinado",
+    "name": "Gafas Personalizables Pro",
+    "description": "Elige cada detalle para unas gafas perfectas.",
+    "image": "https://via.placeholder.com/150",
+    "price": 70000,
+    "options": {
+      "armazon": {
+        "styles": ["Moderno", "Deportivo", "Clásico"],
+        "colors": ["Negro", "Transparente", "Dorado"],
+        "materials": ["Metal", "Acetato"]
+      },
+      "cristales": {
+        "types": ["Cristal Orgánico", "Cristal Mineral", "Cristal Policarbonato"],
+        "designs": ["Monofocal", "Bifocal con oblea", "Bifocal sin oblea", "Progresivo"],
+        "corrections": ["Miopía", "Hipermetropía", "Astigmatismo", "Presbicia"],
+        "addOns": [
+          { "name": "Antireflejo", "price": 8000 },
+          { "name": "Filtro Azul", "price": 10000 },
+          { "name": "Filtro UV", "price": 7000 },
+          { "name": "Tenido", "price": 6000 },
+          { "name": "Polarizado", "price": 12000 },
+          { "name": "Fotocromático", "price": 15000 }
+        ]
+      },
+      "recipeFields": {
+        "requiresPrescriptionImage": true,
+        "fields": ["OD (Esfera, Cilindro, Eje)", "OI (Esfera, Cilindro, Eje)", "DP", "ADD"]
+      }
+    }
+  }
+]
