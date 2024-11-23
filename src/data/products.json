@@ -1,37 +1,18 @@
 [
-    {
-      "id": 1,
-      "type": "armazon",
-      "name": "Armazón Moderno",
-      "description": "Armazón ligero y resistente, ideal para uso diario.",
-      "image": "https://via.placeholder.com/150",
-      "price": 40000,
-      "options": {
+  {
+    "id": 1,
+    "type": "combinado",
+    "name": "Gafas Urbanas Visionarias",
+    "description": "Estilo moderno con opciones de armazón y cristales personalizables.",
+    "image": "https://via.placeholder.com/150",
+    "price": 40000,
+    "options": {
+      "armazon": {
+        "styles": ["Moderno", "Clásico", "Deportivo"],
         "colors": ["Negro", "Plata", "Dorado"],
-        "material": ["Metal", "Acetato"]
-      }
-    },
-    {
-      "id": 2,
-      "type": "armazon",
-      "name": "Armazón Clásico",
-      "description": "Diseño clásico que combina con cualquier estilo.",
-      "image": "https://via.placeholder.com/150",
-      "price": 35000,
-      "options": {
-        "colors": ["Negro", "Marrón", "Transparente"],
-        "material": ["Metal", "Acetato"]
-      }
-    },
-    {
-      "id": 3,
-      "type": "cristales",
-      "name": "Cristal Monofocal",
-      "description": "Cristal diseñado para corregir un solo problema visual.",
-      "image": "https://via.placeholder.com/150",
-      "price": 20000,
-      "configurable": true,
-      "options": {
+        "materials": ["Metal", "Acetato"]
+      },
+      "cristales": {
         "corrections": ["Miopía", "Hipermetropía", "Astigmatismo"],
         "diopterRange": {
           "min": -6.0,
@@ -52,17 +33,95 @@
           }
         ]
       }
-    },
-    {
-      "id": 4,
-      "type": "cristales",
-      "name": "Cristal Multifocal",
-      "description": "Cristal que combina varias correcciones visuales.",
-      "image": "https://via.placeholder.com/150",
-      "price": 30000,
-      "configurable": true,
-      "options": {
-        "corrections": ["Presbicia", "Miopía", "Hipermetropía"],
+    }
+  },
+  {
+    "id": 2,
+    "type": "combinado",
+    "name": "Gafas Elegance Retro",
+    "description": "Un diseño clásico con la última tecnología en cristales.",
+    "image": "https://via.placeholder.com/150",
+    "price": 35000,
+    "options": {
+      "armazon": {
+        "styles": ["Moderno", "Clásico", "Deportivo"],
+        "colors": ["Negro", "Marrón", "Transparente"],
+        "materials": ["Metal", "Acetato"]
+      },
+      "cristales": {
+        "corrections": ["Miopía", "Hipermetropía", "Astigmatismo"],
+        "diopterRange": {
+          "min": -6.0,
+          "max": 6.0
+        },
+        "addOns": [
+          {
+            "name": "Filtro Azul",
+            "price": 10000
+          },
+          {
+            "name": "Antirreflejo",
+            "price": 8000
+          },
+          {
+            "name": "Transición Fotocromática",
+            "price": 15000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "type": "combinado",
+    "name": "Gafas Pure Focus",
+    "description": "Corrección visual precisa para una claridad absoluta.",
+    "image": "https://via.placeholder.com/150",
+    "price": 20000,
+    "options": {
+      "armazon": {
+        "styles": ["Moderno", "Clásico", "Deportivo"],
+        "colors": ["Negro", "Plata", "Dorado"],
+        "materials": ["Metal", "Acetato"]
+      },
+      "cristales": {
+        "corrections": ["Miopía", "Hipermetropía", "Astigmatismo"],
+        "diopterRange": {
+          "min": -6.0,
+          "max": 6.0
+        },
+        "addOns": [
+          {
+            "name": "Filtro Azul",
+            "price": 10000
+          },
+          {
+            "name": "Antirreflejo",
+            "price": 8000
+          },
+          {
+            "name": "Transición Fotocromática",
+            "price": 15000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "type": "combinado",
+    "name": "Gafas Multiflex Vision",
+    "description": "Flexibilidad total para una visión clara en todas las distancias.",
+    "image": "https://via.placeholder.com/150",
+    "price": 30000,
+    "options": {
+      "armazon": {
+        "styles": ["Moderno", "Clásico", "Deportivo"],
+        "colors": ["Negro", "Plata", "Dorado"],
+        "materials": ["Metal", "Acetato"]
+      },
+      "cristales": {
+        "corrections": ["Miopía", "Hipermetropía", "Astigmatismo", "Presbicia"],
         "diopterRange": {
           "min": -4.0,
           "max": 4.0
@@ -82,45 +141,42 @@
           }
         ]
       }
-    },
-
-    {
-  "id": 5,
-  "type": "combinado",
-  "name": "Gafas Completas Personalizables",
-  "description": "Elige el armazón y los cristales que mejor se adapten a tus necesidades.",
-  "image": "https://via.placeholder.com/150",
-  "price": 60000,
-  "configurable": true,
-  "options": {
-    "armazon": {
-      "styles": ["Moderno", "Clásico", "Deportivo"],
-      "colors": ["Negro", "Dorado", "Transparente"],
-      "materials": ["Metal", "Acetato"]
-    },
-    "cristales": {
-      "corrections": ["Miopía", "Hipermetropía", "Astigmatismo", "Presbicia"],
-      "diopterRange": {
-        "min": -6.0,
-        "max": 6.0
+    }
+  },
+  {
+    "id": 5,
+    "type": "combinado",
+    "name": "Gafas Personalizables Pro",
+    "description": "Personaliza cada detalle de tus gafas para ajustarlas a tus necesidades.",
+    "image": "https://via.placeholder.com/150",
+    "price": 60000,
+    "options": {
+      "armazon": {
+        "styles": ["Moderno", "Clásico", "Deportivo"],
+        "colors": ["Negro", "Dorado", "Transparente"],
+        "materials": ["Metal", "Acetato"]
       },
-      "addOns": [
-        {
-          "name": "Filtro Azul",
-          "price": 10000
+      "cristales": {
+        "corrections": ["Miopía", "Hipermetropía", "Astigmatismo", "Presbicia"],
+        "diopterRange": {
+          "min": -6.0,
+          "max": 6.0
         },
-        {
-          "name": "Antirreflejo",
-          "price": 8000
-        },
-        {
-          "name": "Transición Fotocromática",
-          "price": 15000
-        }
-      ]
+        "addOns": [
+          {
+            "name": "Filtro Azul",
+            "price": 10000
+          },
+          {
+            "name": "Antirreflejo",
+            "price": 8000
+          },
+          {
+            "name": "Transición Fotocromática",
+            "price": 15000
+          }
+        ]
+      }
     }
   }
-}
-
-  ]
-  
+]

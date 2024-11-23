@@ -73,7 +73,7 @@ const Products = ({ addToCart }) => {
             <p>{selectedProduct.description}</p>
             <Form>
               {/* Configuración para Armazones */}
-              {(selectedProduct.type === "armazon" || selectedProduct.type === "combinado") && (
+              {selectedProduct.options?.armazon && (
                 <>
                   <Form.Group>
                     <Form.Label>Estilo de Armazón</Form.Label>
@@ -118,7 +118,7 @@ const Products = ({ addToCart }) => {
               )}
 
               {/* Configuración para Cristales */}
-              {(selectedProduct.type === "cristales" || selectedProduct.type === "combinado") && (
+              {selectedProduct.options?.cristales && (
                 <>
                   <Form.Group className="mt-3">
                     <Form.Label>Corrección Visual</Form.Label>
